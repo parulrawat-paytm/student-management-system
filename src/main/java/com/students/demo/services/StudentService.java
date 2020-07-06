@@ -2,17 +2,8 @@ package com.students.demo.services;
 
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Example;
-import org.springframework.data.mongodb.core.MongoTemplate;
-import org.springframework.data.mongodb.core.aggregation.Aggregation;
-import org.springframework.data.mongodb.core.aggregation.LookupOperation;
-import org.springframework.data.mongodb.core.query.CriteriaDefinition;
-import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Service;
 
-import com.jayway.jsonpath.Criteria;
-import com.mongodb.BasicDBObject;
-import com.mongodb.DBObject;
 import com.students.demo.models.*;
 import com.students.demo.respository.StudentRepository;
 import com.students.demo.respository.StandardRespository;

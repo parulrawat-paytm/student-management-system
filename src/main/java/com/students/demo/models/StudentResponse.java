@@ -12,7 +12,7 @@ public class StudentResponse {
 	private String address;
 	private Standard standard;
 	private List<Subject> enrolledSubjects;
-	private List<StudentResponse> students;
+	
 	//default constructor
 		public StudentResponse()
 		{

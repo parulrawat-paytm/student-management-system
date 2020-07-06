@@ -35,8 +35,8 @@ public class StudentController {
 		return studentService.findAll();
 	}
 	
-	@GetMapping("?id={id}")
-	public ResponseEntity<StudentResponse> getUser(@PathVariable(value = "id") String id) {
+	@GetMapping("/getById")
+	public ResponseEntity<StudentResponse> getUser(@RequestParam(value = "id") String id) {
 		StudentResponse student = studentService.findById(id);
 		if(student != null)
 		{

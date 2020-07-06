@@ -1,14 +1,11 @@
 package com.students.demo.utils;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
 import java.util.Iterator;
 import java.util.List;
 import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.assertj.core.util.Arrays;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
